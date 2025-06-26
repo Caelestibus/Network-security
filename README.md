@@ -21,7 +21,6 @@ Understand the basics of network security by:
 
 ## ⚠️ Network Threats Researched
 
-Stored in [`network-threats.md`](./network-threats.md)
 
 | Threat Type        | Description |
 |--------------------|-------------|
@@ -79,9 +78,10 @@ However, for secure Wi-Fi environments:
 🔬 Wireshark Network Monitoring (on Kali)
 
 
+
 🧪 Steps Followed:
 
-Installed Wireshark:
+- Installed Wireshark:
 
 ```bash
 sudo apt install wireshark -y
@@ -90,7 +90,7 @@ sudo wireshark
 
 ---
 
-Chose interface: wlan0 or eth0
+- Chose interface: wlan0 or eth0
 
 Applied filters:
 
