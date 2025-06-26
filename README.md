@@ -81,7 +81,7 @@ However, for secure Wi-Fi environments:
 
 🧪 Steps Followed:
 
-- Installed Wireshark:
+Installed Wireshark:
 
 ```bash
 sudo apt install wireshark -y
@@ -90,12 +90,15 @@ sudo wireshark
 
 ---
 
-- Chose interface: wlan0 or eth0
+Choose interface: eth0
 
 Applied filters:
 
 - http
 - dns
 - tcp.port == 443
+
+---
+
 
 
